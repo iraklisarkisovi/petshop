@@ -24,12 +24,12 @@ const CartPage = () => {
                 )}
             </div>
             {carts.length > 0 && (
-                <div className='grid grid-cols-2 mt-4 gap-2'>
+                <div className='grid grid-cols-5 mt-4 gap-2'>
                     <Link to="/">
-                        <button className='bg-black text-white py-2'>CLOSE</button>
+                        <button className='bg-black text-white py-2 p-10 rounded-lg'>CLOSE</button>
                     </Link>
                     <Link to='/checkout'>
-                        <button className='bg-blue-600 text-white py-2'>CHECKOUT</button>
+                        <button className='bg-blue-600 text-white py-2 p-10 rounded-lg'>CHECKOUT</button>
                     </Link>
                 </div>
             )}

@@ -202,3 +202,39 @@ h3{
 .back-link:hover {
   color: #0056b3;
 }
+
+.image{
+  width: 30px;
+  display: block;
+ 
+}
+
+.none{
+  display: none;
+}
+
+.heart{
+  margin-left: 20px;
+  width: 30px;
+  display: block;
+}
+
+.heartNone{
+  display: none;
+}
+
+.gel{
+  display: block;
+}
+
+.gelNone{
+  display: none;
+}
+
+.usd{
+  display: block;
+}
+
+.usdNone{ 
+  display: none;
+}

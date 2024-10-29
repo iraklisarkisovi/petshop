@@ -16,6 +16,7 @@ const Header = () => {
 
     return (
         <header className="header">
+            <Link to="/" className="header__link header__link--home">Pet-Shop</Link>
             <Link to="/" className="header__link header__link--home">Home</Link>
             <Link to="/favorites" className="header__link header__link--favorites">Favorites</Link>
             <Link to="/cart" className="header__cart">
